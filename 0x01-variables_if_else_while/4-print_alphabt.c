@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
   *main - Entry point
-  *Description: 'print alphabets lowercase and uppercase'
+  *Description: 'print alphabets except q and e'
   *Return: always 0
   */
 int main(void)
