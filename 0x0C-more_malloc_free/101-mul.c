@@ -2,12 +2,11 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <ctype.h>
-
 /**
  * _is_zero - determines if any number is zero
- * @argv: argument vector.
+ * @argv: argument vector
  *
- * Return: no return.
+ * Return: no return
  */
 void _is_zero(char *argv[])
 {
@@ -33,10 +32,10 @@ exit(0);
 }
 /**
  * _initialize_array - set memory to zero in a new array
- * @ar: char array.
- * @lar: length of the char array.
+ * @ar: char array
+ * @lar: length of the char array
  *
- * Return: pointer of a char array.
+ * Return: pointer of a char array
  */
 char *_initialize_array(char *ar, int lar)
 {
@@ -50,11 +49,11 @@ return (ar);
 
 /**
  * _checknum - determines length of the number
- * and checks if nember is in base 10.
- * @argv: arguments vector.
- * @n: row of the array.
+ * and checks if nember is in base 10
+ * @argv: arguments vector
+ * @n: row of the array
  *
- * Return: length of the number.
+ * Return: length of the number
  */
 int _checknum(char *argv[], int n)
 {
@@ -68,14 +67,13 @@ exit(98);
 }
 return (ln);
 }
-
 /**
- * main - Entry point.
- * program that multiplies two positive numbers.
- * @argc: number of arguments.
-* @argv: arguments vector.
+ * main - Entry point
+ * program that multiplies two positive numbers
+ * @argc: number of arguments
+* @argv: arguments vector
  *
- * Return: 0 - success.
+ * Return: 0 - success
  */
 int main(int argc, char *argv[])
 {
@@ -106,8 +104,6 @@ i = ln1 - 1, j--, add1 = 0, ca++, k = lnout - (1 + ca);
 if (j < 0)
 {
 if (nout[0] != '0')
-break;
-lnout;
 break;
 lnout--;
 free(nout), nout = malloc(lnout + 1), nout = _initialize_array(nout, lnout);
