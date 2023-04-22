@@ -1,12 +1,13 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "3-calc.h"
+
 /**
- * main - prints the result of simple operations
- * @argc: The number of arguments supplied to the program
- * @argv: An array of pointers to te arguments
+ * main - ...
+ * @argc: ...
+ * @argv: ...
  *
- * Return: Always 0
+ * Return: ...
  */
 int main(int argc, char *argv[])
 {
@@ -24,6 +25,7 @@ if (!oprt)
 printf("Error\n");
 exit(99);
 }
+
 printf("%d\n", oprt(atoi(argv[1]), atoi(argv[3])));
 return (0);
 }
