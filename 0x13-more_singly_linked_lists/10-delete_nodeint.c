@@ -23,7 +23,7 @@ free(*head);
 return (1);
 }
 temp = *head;
-for (i = 0; i < index - 2; i++)
+for (i = 0; i < index - 1; i++)
 {
 if (temp->next == NULL)
 return (-1);
