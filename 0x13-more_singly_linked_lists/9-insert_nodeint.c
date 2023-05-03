@@ -28,11 +28,15 @@ return (NULL);
 }
 new = malloc(sizeof(listint_t));
 if (new == NULL)
-return  (NULL);
+return (NULL);
 new->n = n;
 if (idx == 0)
 {
 new->next = *head;
 *head = new;
+return (new);
+}
+new->next = temp->next;
+temp->next = new;
 return (new);
 }
